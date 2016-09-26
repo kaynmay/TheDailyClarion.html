@@ -16,6 +16,7 @@ body{
   background-color: white;
   line-height: 130%;
   max-width: 1000px;
+  min-width: 965px;
 }
 
 #header {
@@ -65,10 +66,39 @@ body{
 
 #content{
   margin-left: 150px;
-  border-left: 1px solid gray;
+  border-left: 1px solid grey;
   margin-right: 198px;
-  border-right: 1px solid gray;
+  border-right: 1px solid grey;
   padding: 1em;
+}
+
+#content p.dailyimg{
+  float:right;
+  text-align: center;
+  padding: .3em;
+  border-left: 1px solid grey;
+  font-size: .9em;
+  margin: 0 0 0 .4em;
+}
+
+#content img{
+  width: 270px;
+  padding: .5em;
+}
+
+#content p{
+  margin: .1em .1em .5em .1em;
+}
+
+p.headline, p.headline3{
+  font-size: .7em;
+  margin: .1em;
+  padding: 0 .3em .5em 0;
+}
+
+p.headline3{
+  padding-bottom: .5em;
+  border-bottom: 1px solid grey;
 }
 
 #footer{
